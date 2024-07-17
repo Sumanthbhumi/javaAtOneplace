@@ -1,0 +1,11 @@
+{
+  "editor:open-search-replace": [],
+  "vimium:show-markers": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ]
+}
