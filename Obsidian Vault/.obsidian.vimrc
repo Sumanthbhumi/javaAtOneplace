@@ -8,11 +8,6 @@ imap <C-h> <C-w> " Delete the previous word
 nmap <Tab> :bnext<CR> " Navigate to the next buffer
 nmap <S-Tab> :bprevious<CR> " Navigate to the previous buffer
 
-" Open image under cursor with feh (double size)
-" nmap fe :!feh -B White --geometry %wx%h %f &<CR>
-"
-" " Open image under cursor with feh (2x window, 2x zoom)
-" nmap fE :!feh -B White --geometry %(%w*3)x%(%h*3) --zoom 200 %f &<CR>
 
 set conceallevel=1
 
@@ -54,5 +49,3 @@ nmap yy mj0y$'j
 nmap x "_x
 
 " Center view when going to end of file
-nmap G Gzz
-vmap G Gzz

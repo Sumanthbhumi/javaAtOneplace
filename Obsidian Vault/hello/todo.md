@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-- ~Understand the basic of graphs and binary~
+-  ~Understand the basic of graphs and binary~
 
 * Complete lc prblem 97. subset2 without using for loop
 * Get to know more about recursion without memorizing it
