@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hello/java_notes.md",
+                "file": "Notes/java_methods/TreeMap.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hello/java_notes.md",
+                "file": "Notes/java_methods/TreeMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hello/java_notes.md",
+                "file": "Notes/java_methods/TreeMap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hello/java_notes.md"
+                "file": "Notes/java_methods/TreeMap.md"
               }
             }
           }
@@ -147,6 +148,9 @@
   },
   "active": "1b31d36cd2f3bb4d",
   "lastOpenFiles": [
+    "Notes/java_notes.md",
+    "2024-07-22.md",
+    "Notes/templates/Daily.md",
     "hello/todo.md",
     "hello/java_notes.md",
     "Untitled.canvas",
