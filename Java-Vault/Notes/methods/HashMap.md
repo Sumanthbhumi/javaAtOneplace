@@ -25,3 +25,25 @@ for (Map.Entry<object, object> entry: map.entrySet()) {
 12. `map.values();` _Get collection of all values_
 13. `map.getOrDefault(key, defaultValue);` _Get value or default if key not present_
 14. `map.replace(k, old V, new V)` _replace the old value with new value_
+
+> Sort based on the freq:
+
+```
+Map<Integer, Integer> freq = new HashMap<>();
+Integer[] Inum = new Integer[];
+
+for (int i = 0; i < nums.length; i++) Inum[i] = num[i];
+
+Arrays.sort(Inum, (a, b) -> {
+	return freq.get(a) - freq.get(b); //ascending order
+});
+
+// this sort in ascending order, if the freq is same then sort in descending order.
+Arrays.sort(Inums, (a, b) -> {
+	int diff = 0;
+	diff = freq.get(a) - freq.get(b);
+	if (diff == 0) return b - a; // This makes the difference by sorting in descending order by returning b - a;
+	return diff;
+});
+
+```
