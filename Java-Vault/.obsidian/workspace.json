@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "60cf42ba07e1f4a8",
+        "id": "27103caa0c800e98",
         "type": "tabs",
         "children": [
           {
-            "id": "1b31d36cd2f3bb4d",
+            "id": "5281967a2eaafc61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/java_methods/TreeMap.md",
+                "file": "sql/DBMS.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/java_methods/TreeMap.md",
+                "file": "sql/DBMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/java_methods/TreeMap.md",
+                "file": "sql/DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/java_methods/TreeMap.md"
+                "file": "sql/DBMS.md"
               }
             }
           }
@@ -146,11 +145,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b31d36cd2f3bb4d",
+  "active": "23fa37917e4bf4ba",
   "lastOpenFiles": [
+    "assets/DBMS-img/2024-07-28-22-20-21.png",
+    "assets/DBMS-img",
+    "sql/DBMS.md",
+    "assets/2024-07-28-22-05-05.png",
+    "assets",
+    "assets/Pasted image 20240728215926.png",
+    "assets/Pasted image 20240728215638.png",
+    "Notes/templates/Daily.md",
+    "assets/Pasted image 20240728214620.png",
+    "assets/Pasted image 20240728140630.png",
+    "Assets",
+    "assets/Pasted image 20240728214514.png",
+    "assets/Pasted image 20240728151508.png",
+    "assets/Pasted image 20240728150552.png",
+    "assets/Pasted image 20240728150535.png",
+    "assets/Pasted image 20240728150344.png",
+    "Notes/methods/HashMap.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Notes/index.md",
+    "Notes/methods/ArrayList.md",
     "Notes/java_notes.md",
     "2024-07-22.md",
-    "Notes/templates/Daily.md",
     "hello/todo.md",
     "hello/java_notes.md",
     "Untitled.canvas",

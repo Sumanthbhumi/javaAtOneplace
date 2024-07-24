@@ -11,26 +11,28 @@
    To access them use `Map.Entry<> entry: map.entrySet()`
    _ex:_
 
-```
+```java
 for (Map.Entry<object, object> entry: map.entrySet()) {
-   System.out.println(entry.getKey() + " " + entry.getValue());
+    System.out.println(entry.getKey() + " " + entry.getValue());
 }
 ```
 
-7. `map.remove(key);` _Remove entry with specified key_
-8. `map.size();` _Get size of map_
-9. `map.clear();` _Remove all entries from map_
-10. `map.isEmpty();` _Check if map is empty_
-11. `map.keySet();` _Get set of all keys_
-12. `map.values();` _Get collection of all values_
-13. `map.getOrDefault(key, defaultValue);` _Get value or default if key not present_
-14. `map.replace(k, old V, new V)` _replace the old value with new value_
+1. `map.remove(key);` _Remove entry with specified key_
+2. `map.size();` _Get size of map_
+3. `map.clear();` _Remove all entries from map_
+4. `map.isEmpty();` _Check if map is empty_
+5. `map.keySet();` _Get set of all keys_
+6. `map.values();` _Get collection of all values_
+7. `map.getOrDefault(key, defaultValue);` _Get value or default if key not present_
+8. `map.replace(k, old V, new V)` _replace the old value with new value_
+
+---
 
 > Sort based on the freq:
 
-```
+```java
 Map<Integer, Integer> freq = new HashMap<>();
-Integer[] Inum = new Integer[];
+Integer[] Inum = new Integer[num.length];
 
 for (int i = 0; i < nums.length; i++) Inum[i] = num[i];
 
@@ -45,5 +47,4 @@ Arrays.sort(Inums, (a, b) -> {
 	if (diff == 0) return b - a; // This makes the difference by sorting in descending order by returning b - a;
 	return diff;
 });
-
 ```

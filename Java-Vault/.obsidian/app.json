@@ -2,5 +2,7 @@
   "defaultViewMode": "source",
   "vimMode": true,
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "assets/"
 }
